@@ -1,0 +1,11 @@
+node_modules
+.next
+build
+out
+.env*
+!.env.example
+.git
+.github
+.vscode
+*.md
+.DS_Store
