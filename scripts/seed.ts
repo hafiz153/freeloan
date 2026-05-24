@@ -1,5 +1,5 @@
 const { config } = require('dotenv');
-config({ path: require('path').resolve(process.cwd(), '.env.local') });
+config({ path: require('path').resolve(process.cwd(), '.env') });
 
 async function seed() {
   const { connectDB } = require('../src/lib/db/connect');
